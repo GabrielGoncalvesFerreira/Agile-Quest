@@ -1,0 +1,22 @@
+{
+    "name": "penna-tech/agile-quest",
+    "description": "API para Agile Quest",
+    "type": "project",
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/",
+        "Core\\": "core/"
+      }
+    },
+    "authors": [
+      {
+        "name": "Gabriel Goncalves Ferreira",
+        "email": "gabrielgoncalvesferreira@hotmail.com"
+      }
+    ],
+    "require": {
+      "vlucas/phpdotenv": "^5.4",
+      "firebase/php-jwt": "^6.0"
+    }
+  }
+  
